@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC9A1E322A07CEE600195553 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC9A1E312A07CEE600195553 /* main.cpp */; };
+		CC9A1E392A07D6B500195553 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = CC9A1E382A07D6B500195553 /* test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CC9A1E2E2A07CEE600195553 /* testFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9A1E312A07CEE600195553 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CC9A1E382A07D6B500195553 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,8 @@
 		CC9A1E252A07CEE600195553 = {
 			isa = PBXGroup;
 			children = (
-				CC9A1E302A07CEE600195553 /* testFile */,
+				CC9A1E382A07D6B500195553 /* test.c */,
+				CC9A1E312A07CEE600195553 /* main.cpp */,
 				CC9A1E2F2A07CEE600195553 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +55,6 @@
 				CC9A1E2E2A07CEE600195553 /* testFile */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CC9A1E302A07CEE600195553 /* testFile */ = {
-			isa = PBXGroup;
-			children = (
-				CC9A1E312A07CEE600195553 /* main.cpp */,
-			);
-			path = testFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +115,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9A1E322A07CEE600195553 /* main.cpp in Sources */,
+				CC9A1E392A07D6B500195553 /* test.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
